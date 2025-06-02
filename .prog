@@ -1,0 +1,9 @@
+Changed the Clubs logic for the structure set in the api. 
+Next Step: Manage the Login and Register fetch api logic 
+
+Structure for filesystem:
+
+frontend/src/api/login.js | register.js | getUser.js | getClubs.js 
+frontend/src/stores/authstore.js userStore.js ClubStore.js
+
+

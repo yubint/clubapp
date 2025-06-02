@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+
+    height: 100vh;
+
+    color: #011028;
+
+    font-family: "Noto Sans";
+
+    color-scheme: light dark;
+    background-color: #ecf4fe;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+    --color-bg: #ecf4fe;
+    --color-bg2: #e5ecf6;
+    --color-primary: #5a7eb5;
+    --color-secondary: #dbd4c2;
+    --color-accent: #5e9c52;
+}
+
+@theme {
+    --font-title: "Amaranth";
+    --font-regular: "Noto Sans";
+    --font-input: "JetBrains Mono";
+}
+
+@theme {
+    --shadow-3xl: -40px 20px 40px rgba(0, 0, 0, 0.25);
+}
